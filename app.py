@@ -19,6 +19,13 @@ def predict(hours_slept):
 prediction = predict(hours)
 st.write(f"Prediction: **{prediction}**")
 st.write("*where are you*")
+
+---------------------------------------
+ 
+
+ using terminal
+
+------------------------------------
 # using command line to save changes
 api_key = st.secrets["API_KEY"]
 
